@@ -13,7 +13,7 @@ import java.util.List;
 @Controller
 public class HomeController {
 
-    private InstitutionRepository institutionRepository;
+    private final InstitutionRepository institutionRepository;
 
     @Autowired
     public HomeController(InstitutionRepository institutionRepository) {
@@ -24,6 +24,7 @@ public class HomeController {
     @RequestMapping("/")
     public String homeAction(Model model) {
         List<Institution> institutionList = institutionRepository.findAll();
+        model.addAttribute("institutions", institutionList);
         return "index";
     }
 }

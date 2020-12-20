@@ -2,7 +2,7 @@
 <html lang="pl" xmlns:th="http://www.thymeleaf.org">
 <head th:include="fragments/headerConfig :: headerConfig">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="@{/css/style.css}"/>
 </head>
 <body>
 <header class="header--main-page">
@@ -25,7 +25,7 @@
     <div class="slogan container container--90">
         <div class="slogan--item">
             <h1>
-                Zacznij pomagać!<br />
+                Zacznij pomagać!<br/>
                 Oddaj niechciane rzeczy w zaufane ręce
             </h1>
         </div>
@@ -37,13 +37,15 @@
         <div class="stats--item">
             <em>10</em>
             <h3>Oddanych worków</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius est beatae, quod accusamus illum tempora!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius est beatae, quod accusamus illum
+                tempora!</p>
         </div>
 
         <div class="stats--item">
             <em>5</em>
             <h3>Przekazanych darów</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam magnam, sint nihil cupiditate quas quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam magnam, sint nihil cupiditate quas
+                quam.</p>
         </div>
 
     </div>
@@ -81,10 +83,12 @@
 <section id="about-us" class="about-us">
     <div class="about-us--text">
         <h2>O nas</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas vitae animi rem pariatur incidunt libero optio esse quisquam illo omnis.</p>
-        <img src="c:url value="resources/images/signature.svg"/> class="about-us--text-signature" alt="Signature" />
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas vitae animi rem pariatur incidunt libero
+            optio esse quisquam illo omnis.</p>
+        <img src="images/signature.svg" class="about-us--text-signature" alt="Signature" />
     </div>
-    <div class="about-us--image"><img src="<c:url value="resources/images/about-us.jpg"/> alt="People in circle" /></div>
+    <div class="about-us--image"><img src="images/about-us.jpg" alt="People in circle" />
+    </div>
 </section>
 
 <section id="help" class="help">
@@ -96,30 +100,39 @@
             Możesz sprawdzić czym się zajmują.</p>
 
         <ul class="help--slides-items">
-            <li>
-                <div class="col">
-                    <div class="title">Fundacja "Dbam o Zdrowie"</div>
-                    <div class="subtitle">Cel i misja: Pomoc dzieciom z ubogich rodzin.</div>
-                </div>
+            <!--            <li>-->
+            <!--                <div class="col">-->
+            <!--                    <div class="title">Fundacja "Dbam o Zdrowie"</div>-->
+            <!--                    <div class="subtitle">Cel i misja: Pomoc dzieciom z ubogich rodzin.</div>-->
+            <!--                </div>-->
 
-                <div class="col">
-                    <div class="title">Fundacja "A kogo"</div>
-                    <div class="subtitle">Cel i misja: Pomoc wybudzaniu dzieci ze śpiączki.</div>
-                </div>
-            </li>
+            <!--                <div class="col">-->
+            <!--                    <div class="title">Fundacja "A kogo"</div>-->
+            <!--                    <div class="subtitle">Cel i misja: Pomoc wybudzaniu dzieci ze śpiączki.</div>-->
+            <th:block th:each="institution, iterationState : ${institutions}">
+                <li th:if="${iterationState.odd}">
+                    <div class="col" th:if="${(iterationState.index)<institutions.size()}">
+                        <div class="title" th:text= "Fundacja ${institutions.get(iterationState.index).getName()}"></div>
+                        <div class="subtitle" th:text="${institutions.get(iterationState.index).getDescription()}"></div>
+                    </div>
+                        <div class="col" th:if="${iterationState.index+1<institutions.size()}">
+                            <div class="title" th:text= "Fundacja ${institutions.get(iterationState.index+1).getName()}"></div>
+                            <div class="subtitle" th:text="${institutions.get(iterationState.index+1).getDescription()}"></div>
+                        </div>
+                </li>
 
-            <li>
-                <div class="col">
-                    <div class="title">Fundacja “Dla dzieci"</div>
-                    <div class="subtitle">Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.</div>
-                </div>
-                <div class="col">
-                    <div class="title">Fundacja “Bez domu”</div>
-                    <div class="subtitle">Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania</div>
-                </div>
+                <!--            <li>-->
+                <!--                <div class="col">-->
+                <!--                    <div class="title">Fundacja “Dla dzieci"</div>-->
+                <!--                    <div class="subtitle">Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.</div>-->
+                <!--                </div>-->
+                <!--                <div class="col">-->
+                <!--                    <div class="title">Fundacja “Bez domu”</div>-->
+                <!--                    <div class="subtitle">Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania</div>-->
+                <!--                </div>-->
 
-            </li>
-
+                <!--            </li>-->
+            </th:block>
         </ul>
 
 

@@ -22,10 +22,8 @@ public class Donation {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private Integer quantity;
-    //    adnotacja: pewnie OneToMany lub cos podobnego, albo przy getterze
     @ManyToMany
     private List<Category> categoriesList = new ArrayList<>();
-    //    adnotacja: pewnie OneToMany lub cos podobnego, albo przy getterze
     @ManyToOne
     private Institution institution;
     private String street;

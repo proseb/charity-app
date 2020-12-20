@@ -5,53 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="484af400-75eb-4693-ace2-dbfce92ea499" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/form-confirmation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/headerConfig.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/headerFormConfirmationPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/charity_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/charity_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_9_0_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_15_0.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/headerForLoginAndRegisterPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/charity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/charity.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/entity/Donation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/entity/Donation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/repository/InstitutionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/repository/InstitutionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/about-us.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/about-us.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/decoration.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/decoration.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/footer-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/footer-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/form-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/form-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/header-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/header-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/header-form-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/header-form-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/icon-arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/icon-arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/icon-bag.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/icon-bag.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/icon-courier.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/icon-courier.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/icon-facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/icon-facebook.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/icon-gear.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/icon-gear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/icon-glasses.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/icon-glasses.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/icon-hand.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/icon-hand.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/icon-hands.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/icon-hands.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/icon-instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/icon-instagram.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/signature.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/signature.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/stats-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/stats-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/charity/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/charity/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/form-confirmation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/form-confirmation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/headerFormConfirmationPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/headerFormPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,13 +69,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,7 +105,8 @@
       <workItem from="1608228849001" duration="745000" />
       <workItem from="1608329808387" duration="4050000" />
       <workItem from="1608370329956" duration="664000" />
-      <workItem from="1608469651356" duration="13850000" />
+      <workItem from="1608469651356" duration="14372000" />
+      <workItem from="1608492158440" duration="8803000" />
     </task>
     <servers />
   </component>
@@ -147,37 +114,37 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="881" height="257" key="GridCell.Tab.0.bottom" timestamp="1608472564621">
+    <state width="881" height="257" key="GridCell.Tab.0.bottom" timestamp="1608488290215">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="881" height="257" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1608472564621" />
-    <state width="881" height="257" key="GridCell.Tab.0.center" timestamp="1608472564620">
+    <state width="881" height="257" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1608488290215" />
+    <state width="881" height="257" key="GridCell.Tab.0.center" timestamp="1608488290215">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="881" height="257" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1608472564620" />
-    <state width="881" height="257" key="GridCell.Tab.0.left" timestamp="1608472564619">
+    <state width="881" height="257" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1608488290215" />
+    <state width="881" height="257" key="GridCell.Tab.0.left" timestamp="1608488290215">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="881" height="257" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1608472564619" />
-    <state width="881" height="257" key="GridCell.Tab.0.right" timestamp="1608472564621">
+    <state width="881" height="257" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1608488290215" />
+    <state width="881" height="257" key="GridCell.Tab.0.right" timestamp="1608488290215">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="881" height="257" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1608472564621" />
-    <state width="881" height="257" key="GridCell.Tab.1.bottom" timestamp="1608472564622">
+    <state width="881" height="257" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1608488290215" />
+    <state width="881" height="257" key="GridCell.Tab.1.bottom" timestamp="1608488290216">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="881" height="257" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1608472564622" />
-    <state width="881" height="257" key="GridCell.Tab.1.center" timestamp="1608472564622">
+    <state width="881" height="257" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1608488290216" />
+    <state width="881" height="257" key="GridCell.Tab.1.center" timestamp="1608488290216">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="881" height="257" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1608472564622" />
-    <state width="881" height="257" key="GridCell.Tab.1.left" timestamp="1608472564621">
+    <state width="881" height="257" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1608488290216" />
+    <state width="881" height="257" key="GridCell.Tab.1.left" timestamp="1608488290216">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="881" height="257" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1608472564621" />
-    <state width="881" height="257" key="GridCell.Tab.1.right" timestamp="1608472564622">
+    <state width="881" height="257" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1608488290216" />
+    <state width="881" height="257" key="GridCell.Tab.1.right" timestamp="1608488290216">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="881" height="257" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1608472564622" />
+    <state width="881" height="257" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1608488290216" />
   </component>
 </project>

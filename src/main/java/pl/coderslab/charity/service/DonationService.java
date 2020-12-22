@@ -13,4 +13,7 @@ public interface DonationService {
     void delete(long id);
 
     void save(Donation donation);
+
+    long sumAllGivenBags();
+
 }

@@ -28,12 +28,15 @@ public class DonationServiceImpl implements DonationService {
     }
 
     @Override
-    public void delete(long id) {
-        donationRepository.deleteById(id);
-    }
+    public void delete(long id) { donationRepository.deleteById(id); }
 
     @Override
     public void save(Donation donation) {
         donationRepository.save(donation);
+    }
+
+    @Override
+    public long sumAllGivenBags() {
+        return donationRepository.sumAllGivenBags();
     }
 }

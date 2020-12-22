@@ -8,3 +8,7 @@ INSERT INTO institution (name, description) VALUES ('Dbam o zdrowie', 'Cel i mis
 INSERT INTO institution (name, description) VALUES ('Dla dzieci', 'Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.');
 INSERT INTO institution (name, description) VALUES ('A kogo', 'Cel i misja: Pomoc wybudzaniu dzieci ze śpiączki.');
 INSERT INTO institution (name, description) VALUES ('Bez domu', 'Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania');
+
+--  widzi tylko podane niżej pola przy donation
+INSERT INTO donation (quantity, street, city)
+VALUES ('2', 'Prosta 51', 'Warszawa');

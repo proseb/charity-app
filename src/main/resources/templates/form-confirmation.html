@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="pl" xmlns:th="http://www.thymeleaf.org">
 <head th:include="fragments/headerConfig :: headerConfig">
-    <title>formConfirmation</title>
-    <link rel="stylesheet" th:href="@{/css/style.css}"/>
 </head>
 <body>
 <header class="header--form-page"
-        th:include="fragments/headerFormPage :: headerFormPage"></header>
+        th:include="fragments/headerIndexPage :: headerIndexPage"></header>
 
 <div class="slogan container container--90">
     <h2>
@@ -17,7 +15,8 @@
 
 <footer th:include="fragments/footer :: footer"></footer>
 
-<script src="js/app.js"></script>
+<script th:src="@{/js/app.js}"></script>
+
 
 </body>
 </html>

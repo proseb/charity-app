@@ -5,34 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="484af400-75eb-4693-ace2-dbfce92ea499" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample-data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/headerIndexPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/service/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/service/DonationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/service/DonationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/service/InstitutionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/service/InstitutionServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/repository/CategoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/repository/DonationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/repository/DonationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/repository/InstitutionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/repository/InstitutionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/form-confirmation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/form-confirmation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/headerConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/headerConfig.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/headerForLoginAndRegisterPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/headerForLoginAndRegisterPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/headerFormPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/headerFormPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/charity/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/charity/entity/Donation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/charity/entity/Donation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/charity/repository/CategoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/charity/repository/CategoryRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/charity/repository/DonationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/charity/repository/DonationRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/charity/repository/InstitutionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/charity/repository/InstitutionRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/Hello Thymeleaf.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/form-confirmation.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/form-confirmation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/headerConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/headerConfig.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/headerFormConfirmationSite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -126,7 +108,7 @@
       <workItem from="1608469651356" duration="14372000" />
       <workItem from="1608492158440" duration="9434000" />
       <workItem from="1608541082458" duration="6809000" />
-      <workItem from="1608620100204" duration="5594000" />
+      <workItem from="1608620100204" duration="8177000" />
     </task>
     <servers />
   </component>
@@ -138,42 +120,50 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="588" y="214" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1608621352028" />
-    <state width="1807" height="264" key="GridCell.Tab.0.bottom" timestamp="1608626842208">
+    <state x="1264" y="260" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1608630011992">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="264" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1608626842208" />
-    <state width="1807" height="264" key="GridCell.Tab.0.center" timestamp="1608626842208">
+    <state x="1264" y="260" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1608630011992" />
+    <state width="881" height="264" key="GridCell.Tab.0.bottom" timestamp="1608628896572">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="264" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1608626842208" />
-    <state width="1807" height="264" key="GridCell.Tab.0.left" timestamp="1608626842208">
+    <state width="881" height="264" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1608628896572" />
+    <state width="881" height="264" key="GridCell.Tab.0.center" timestamp="1608628896571">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="264" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1608626842208" />
-    <state width="1807" height="264" key="GridCell.Tab.0.right" timestamp="1608626842208">
+    <state width="881" height="264" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1608628896571" />
+    <state width="881" height="264" key="GridCell.Tab.0.left" timestamp="1608628896571">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="264" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1608626842208" />
-    <state width="1807" height="264" key="GridCell.Tab.1.bottom" timestamp="1608626842209">
+    <state width="881" height="264" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1608628896571" />
+    <state width="881" height="264" key="GridCell.Tab.0.right" timestamp="1608628896571">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="264" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1608626842209" />
-    <state width="1807" height="264" key="GridCell.Tab.1.center" timestamp="1608626842209">
+    <state width="881" height="264" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1608628896571" />
+    <state width="881" height="264" key="GridCell.Tab.1.bottom" timestamp="1608628896573">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="264" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1608626842209" />
-    <state width="1807" height="264" key="GridCell.Tab.1.left" timestamp="1608626842208">
+    <state width="881" height="264" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1608628896573" />
+    <state width="881" height="264" key="GridCell.Tab.1.center" timestamp="1608628896572">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="264" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1608626842208" />
-    <state width="1807" height="264" key="GridCell.Tab.1.right" timestamp="1608626842209">
+    <state width="881" height="264" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1608628896572" />
+    <state width="881" height="264" key="GridCell.Tab.1.left" timestamp="1608628896572">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="264" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1608626842209" />
+    <state width="881" height="264" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1608628896572" />
+    <state width="881" height="264" key="GridCell.Tab.1.right" timestamp="1608628896573">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="881" height="264" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1608628896573" />
     <state width="287" height="500" key="HiddenNamespacesPopup" timestamp="1608624661760">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="287" height="500" key="HiddenNamespacesPopup/67.27.1853.1053@67.27.1853.1053" timestamp="1608624661760" />
+    <state x="986" y="210" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1608629498956">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="986" y="210" width="924" height="684" key="Maven.ArtifactSearchDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1608629498956" />
     <state x="657" y="253" key="run.anything.popup" timestamp="1608621168552">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

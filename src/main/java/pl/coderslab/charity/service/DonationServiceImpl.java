@@ -39,4 +39,7 @@ public class DonationServiceImpl implements DonationService {
     public long sumAllGivenBags() {
         return donationRepository.sumAllGivenBags();
     }
+
+    @Override
+    public long sumAllDonations() { return donationRepository.countAllDonations(); }
 }

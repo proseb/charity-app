@@ -29,6 +29,8 @@ public class HomeController {
         model.addAttribute("institutions", institutionList);
         long allGivenBags = donationRepository.sumAllGivenBags();
         model.addAttribute("allGivenBags", allGivenBags);
+        long allDonations = donationRepository.countAllDonations();
+        model.addAttribute("allDonations", allDonations);
         return "index";
     }
 }

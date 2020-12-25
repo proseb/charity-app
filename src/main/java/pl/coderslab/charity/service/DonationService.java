@@ -16,4 +16,5 @@ public interface DonationService {
 
     long sumAllGivenBags();
 
+    long sumAllDonations();
 }

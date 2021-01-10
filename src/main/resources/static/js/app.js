@@ -165,8 +165,44 @@ document.addEventListener("DOMContentLoaded", function() {
 
       // TODO: get data from inputs and show them in summary
 
-    }
+      let institution = document.querySelector("input[type=radio][name=institution]:checked")
+          .parentElement.querySelector("div.title");
+      let institutionSummary = document.querySelector("#institution");
 
+      institutionSummary.innerHTML = institution ? institution.innerText : "";
+
+      let addressSummary = document.querySelectorAll("#addressDataSummary li");
+      let pickUpSummary = document.querySelectorAll("#pickUpSummary li");
+
+      let addressValue = document.querySelector("#addressInput").value;
+      let cityValue = document.querySelector("#cityInput").value;
+      let postCodeValue = document.querySelector("#postCodeInput").value;
+      let phoneNumberValue = document.querySelector("#phoneNumberInput").value;
+
+      let addressDataValueArray = [addressValue, cityValue, postCodeValue, phoneNumberValue];
+      for (let i = 0; i < addressSummary.length; i++) {
+        addressSummary[i].innerHTML = addressDataValueArray[i];
+      }
+
+      let pickUpDateValue = document.querySelector("#pickUpDateInput").value;
+      let pickUpTimeValue = document.querySelector("#pickUpTimeInput").value;
+      let pickUpCommentValue = document.querySelector("#pickUpCommentInput").value;
+      let pickUpValueArray = [pickUpDateValue, pickUpTimeValue, pickUpCommentValue];
+      for (let i = 0; i < pickUpSummary.length; i++) {
+        pickUpSummary[i].innerHTML = pickUpValueArray[i];
+      }
+
+      let bagsSummary = document.querySelector("#bags");
+      let bags = document.getElementById("quantity").value;
+
+      bagsSummary.innerText = bags + " worków z kategorii: ";
+
+      let categories = document.querySelectorAll("input[type=checkbox][name=categories]:checked");
+
+      for (let i = 0; i < categories.length; i++) {
+        bagsSummary.innerHTML += '<br> &nbsp; - ' + categories[i].parentElement.querySelector("span.description").innerText
+      }
+    }
   }
   const form = document.querySelector(".form--steps");
   if (form !== null) {

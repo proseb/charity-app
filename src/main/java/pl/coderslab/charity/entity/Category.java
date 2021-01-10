@@ -17,8 +17,8 @@ public class Category {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    @ManyToMany(mappedBy = "categoriesList")
-    private List<Donation> donationsList = new ArrayList<>();
+    @ManyToMany(mappedBy = "categories")
+    private List<Donation> donations = new ArrayList<>();
 
     @Override
     public String toString() {

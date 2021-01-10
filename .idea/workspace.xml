@@ -5,15 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="484af400-75eb-4693-ace2-dbfce92ea499" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/controller/DonationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/entity/Donation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/entity/Donation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/repository/DonationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/repository/DonationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/service/DonationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/service/DonationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/service/DonationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/charity/service/DonationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/charity/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/charity/controller/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/charity/repository/DonationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/charity/repository/DonationRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/headerFormPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/headerFormPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/headerIndexPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/headerIndexPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/charity/entity/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/charity/entity/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/charity/entity/Donation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/charity/entity/Donation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/headerFormPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/headerFormPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/headerIndexPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/headerIndexPage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +44,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="stage_2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,6 +109,14 @@
       <workItem from="1608492158440" duration="9434000" />
       <workItem from="1608541082458" duration="6809000" />
       <workItem from="1608620100204" duration="13250000" />
+      <workItem from="1608983004536" duration="5280000" />
+      <workItem from="1609078184483" duration="4175000" />
+      <workItem from="1609152851763" duration="8165000" />
+      <workItem from="1609170632508" duration="548000" />
+      <workItem from="1609180006059" duration="2235000" />
+      <workItem from="1609328467594" duration="11410000" />
+      <workItem from="1610286033992" duration="99000" />
+      <workItem from="1610299752225" duration="339000" />
     </task>
     <servers />
   </component>
@@ -112,38 +132,38 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1264" y="260" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1608637683621" />
-    <state width="1807" height="264" key="GridCell.Tab.0.bottom" timestamp="1608638017586">
+    <state width="1807" height="169" key="GridCell.Tab.0.bottom" timestamp="1609354865890">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="264" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1608638017586" />
-    <state width="1807" height="264" key="GridCell.Tab.0.center" timestamp="1608638017586">
+    <state width="1807" height="169" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1609354865890" />
+    <state width="1807" height="169" key="GridCell.Tab.0.center" timestamp="1609354865890">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="264" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1608638017586" />
-    <state width="1807" height="264" key="GridCell.Tab.0.left" timestamp="1608638017586">
+    <state width="1807" height="169" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1609354865890" />
+    <state width="1807" height="169" key="GridCell.Tab.0.left" timestamp="1609354865888">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="264" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1608638017586" />
-    <state width="1807" height="264" key="GridCell.Tab.0.right" timestamp="1608638017586">
+    <state width="1807" height="169" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1609354865888" />
+    <state width="1807" height="169" key="GridCell.Tab.0.right" timestamp="1609354865890">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="264" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1608638017586" />
-    <state width="1807" height="264" key="GridCell.Tab.1.bottom" timestamp="1608638017587">
+    <state width="1807" height="169" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1609354865890" />
+    <state width="1807" height="169" key="GridCell.Tab.1.bottom" timestamp="1609354865891">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="264" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1608638017587" />
-    <state width="1807" height="264" key="GridCell.Tab.1.center" timestamp="1608638017587">
+    <state width="1807" height="169" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1609354865891" />
+    <state width="1807" height="169" key="GridCell.Tab.1.center" timestamp="1609354865891">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="264" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1608638017587" />
-    <state width="1807" height="264" key="GridCell.Tab.1.left" timestamp="1608638017587">
+    <state width="1807" height="169" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1609354865891" />
+    <state width="1807" height="169" key="GridCell.Tab.1.left" timestamp="1609354865890">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="264" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1608638017587" />
-    <state width="1807" height="264" key="GridCell.Tab.1.right" timestamp="1608638017587">
+    <state width="1807" height="169" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1609354865890" />
+    <state width="1807" height="169" key="GridCell.Tab.1.right" timestamp="1609354865891">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="264" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1608638017587" />
+    <state width="1807" height="169" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1609354865891" />
     <state width="287" height="500" key="HiddenNamespacesPopup" timestamp="1608624661760">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -156,9 +176,9 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="657" y="253" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1608621168552" />
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1608622286606">
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1609181937482">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1608622286606" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1609181937482" />
   </component>
 </project>

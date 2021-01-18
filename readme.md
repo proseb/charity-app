@@ -1,12 +1,4 @@
-<img alt="Logo" src="http://coderslab.pl/svg/logo-coderslab.svg" width="400">
-
-
-Przed przystąpieniem do pracy  przeczytaj poniższe wskazówki.
-## Jak zacząć?
-
-1. Zaimportuj projekt jako projekt `Maven`, wg poniższych wskazówek:
-
-	* W `IntelliJ` wybieramy: `File –> New –> Project from Existing Sources...`
-	* Wskazujemy lokalizację katalogu ze sklonowanym projektem i zatwierdzamy.
-	* Następnie w nowym oknie wybieramy: `Import project from external model` i wskazujemy `Maven`
-	* Wybieramy kolejno opcje: `Next –> Next –> Next –> Finish`
+Dodatkowy projekt wykonywany w ramach kursu Coders Lab. Celem projektu jest stworzenie miejsca,
+ w którym każdy będzie mógł oddać niepotrzebne rzeczy zaufanym instytucjom. Wykorzystuję Spring Boot, 
+ Maven, Java 11. Aplikacja znajduje się w fazie rozwoju - to, co widać w serwisie Github nie jest 
+ jeszcze ostateczną/finalną wersją aplikacji.

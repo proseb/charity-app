@@ -29,11 +29,11 @@ public class Donation {
     @Min(1)
     private Integer quantity;
 
-    @ManyToMany
+    @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinTable(name = "category_donation")
     private List<Category> categories = new ArrayList<>();
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     private Institution institution;
 
     @NotBlank

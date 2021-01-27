@@ -9,6 +9,8 @@ INSERT INTO institution (name, description) VALUES ('Dla dzieci', 'Cel i misja: 
 INSERT INTO institution (name, description) VALUES ('A kogo', 'Cel i misja: Pomoc wybudzaniu dzieci ze śpiączki.');
 INSERT INTO institution (name, description) VALUES ('Bez domu', 'Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania');
 
+INSERT INTO role (role) VALUES ("ROLE_USER");
+
 --  widzi tylko podane niżej pola przy donation
-INSERT INTO donation (quantity, street, city)
-VALUES ('2', 'Prosta 51', 'Warszawa');
+--INSERT INTO donation (quantity, street, city)
+--VALUES ('2', 'Prosta 51', 'Warszawa');

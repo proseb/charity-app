@@ -25,13 +25,14 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="06e7b362-ed3b-463c-abd9-9a6311b9e45f">
-        <schema name="charity_donation" object-types="table, view" />
+        <schema name="charity_donation" object-types="procedure, function, table, view" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="06e7b362-ed3b-463c-abd9-9a6311b9e45f">
-      <console name="Connection" type="STANDARD" schema="charity_donation" session="Main"><![CDATA[select * from donation limit 20;]]></console>
+      <console name="Connection" type="STANDARD" schema="charity_donation" session="Main"><![CDATA[--select * from donation limit 10;
+select * from `user` limit 10;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
